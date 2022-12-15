@@ -20,7 +20,11 @@ Usage: cmd [options]
 ```
 
 ``` sh
-$ opml-to-markdown test/fixtures/header-list-note/test.opml
+// 直接在命令行输出md文本
+$ opml-to-markdown test.opml
+
+// 输出md文件
+$ opml-to-markdown test.opml -o test.md
 ```
 
 ``` xml
