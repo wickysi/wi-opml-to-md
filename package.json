@@ -1,0 +1,38 @@
+{
+  "name": "wi-opml-to-md",
+  "description": "Convert opml to markdown.",
+  "keywords": [
+    "opml",
+    "markdown",
+    "converter"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/wickysi/wi-opml-to-md/",
+  "repository": {
+    "url": "git://github.com/wickysi/wi-opml-to-md.git"
+  },
+  "bin": {
+    "opml-to-markdown": "./bin/opml-to-markdown.js"
+  },
+  "main": "./lib/opml-to-markdown.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "wickysi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wickysi/wi-opml-to-md/issues"
+  },
+  "dependencies": {
+    "opml-to-json": "~1.0.1",
+    "optionator": "^0.9.1"
+  },
+  "devDependencies": {
+    "intelli-espower-loader": "1.1.0",
+    "mocha": "^10.2.0",
+    "power-assert": "^1.6.1"
+  }
+}

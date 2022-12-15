@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opml version="2.0">
+  <head>
+    <title></title>
+    <flavor>dynalist</flavor>
+    <source>https://dynalist.io</source>
+    <ownerName>wickys</ownerName>
+    <ownerEmail>siweijie@163.com</ownerEmail>
+  </head>
+  <body>
+    <outline text="Work">
+      <outline text="测试" _note="&#10;subtext..."/>
+      <outline text="项目开发文档">
+        <outline text="文档存储在坚果云中"/>
+        <outline text="文档 wiki - docsify">
+          <outline text="[docsify教程](https://docsify.js.org/#/zh-cn/quickstart)"/>
+          <outline text="启动网页服务 `docsity serve docs`"/>
+          <outline text="初始化文档目录 `docsity init ./docs`"/>
+        </outline>
+        <outline text="[dotintbtm首页](http://localhost:3000/#/README)"/>
+        <outline text=""/>
+      </outline>
+    </outline>
+  </body>
+</opml>
